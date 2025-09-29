@@ -12,6 +12,6 @@ partOfBody = input("Enter a part of the body:")
 # Output the story
 print()
 print("There are many", adj, "ways to choose a", noun, "to read.")
-print("You could ask recommendations from your friends and", plnoun, ".")
+print("You could ask recommendations from your friends and", plnoun+".")
 print("If they are no help, head to your local library or", place, "and browse the shelves")
-print("until something catches your", partOfBody, ".")
+print("until something catches your", partOfBody+".")
