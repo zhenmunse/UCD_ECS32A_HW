@@ -2,6 +2,8 @@
 
 ------
 
+> “The chains of habit are too weak to be felt until they are too strong to be broken.” – Samuel Johnson
+
 ## 1. From Sequential to Conditional Execution
 
 - **Sequential execution**: every statement runs in order.
