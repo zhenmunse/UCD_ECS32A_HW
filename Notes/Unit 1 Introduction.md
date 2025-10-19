@@ -1,4 +1,4 @@
-# ECS 32A – Unit 1 Introduction
+# Unit 1 Introduction
 
 ## Welcome to ECS 32A
 - **Course goal**: Learn how to write programs from scratch, with no prior programming experience.
@@ -26,7 +26,7 @@
   - *“Code is more often read than written.” – Guido van Rossum*
 - **Developer productivity**:
   - Interpreted (no compiling step).
-  - Large ecosystem of modules (graphics, data science, ML, web, etc.).
+  - Large ecosystem of modules (graphics, data science, machine learning, web, etc.).
 - **Popularity**: Used at Google, YouTube, NASA, Tesla, Pixar, etc.
 - **Comparison**: Python programs are 3–10× shorter than Java or C++.
 
@@ -49,7 +49,7 @@
   - Script editor: write, save, and run full programs.
 - **Jupyter Notebooks**:
   - Learned in discussion sections.
-  - Popular in AI/ML and data science.
+  - Popular in Artificial Intelligence and Data Science.
 
 ---
 
