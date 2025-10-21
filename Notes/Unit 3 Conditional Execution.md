@@ -1,4 +1,4 @@
-# ECS 32A – Unit 3 Conditional Execution
+# Unit 3 Conditional Execution
 
 ------
 
