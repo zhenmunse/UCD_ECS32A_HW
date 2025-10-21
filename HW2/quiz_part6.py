@@ -10,13 +10,14 @@ def multipleChoice(question, options, answer): # define a function to handle mul
     for option in options:  # print all options
         print(option)
     user_answer = input('Enter your choice:') # get user input
+    if user_answer not in ['a', 'b', 'c']:  # validate input
+        print('Invalid input! Enter a, b, or c next time.') # notify invalid input
+        print(f'The correct answer was {answer}')
+        return  # stop processing if input is invalid
     if user_answer == answer:   # correct answer
         print('Correct!')
         global score; score += 1  # increment score for correct answer
-    else:                       # wrong answer
-        if user_answer not in ['a', 'b', 'c']:  # validate input
-            print('Invalid input! Enter a, b, or c next time.') # notify invalid input
-        print(f'The correct answer was {answer}')
+        
 
 # Call the function for each question
 multipleChoice("ART: Who painted 'The Persistance of Memory'?", ['a. Dali', 'b. Munch', 'c. Picasso'], 'a')
